@@ -60,6 +60,7 @@ export const Form = ({setIsbuttonClicked}) => {
       <form onSubmit={handleForm}>
         <label>Username:</label>
         <input
+        id="username"
           type="text"
           name="username"
           value={formData.username}
@@ -68,7 +69,9 @@ export const Form = ({setIsbuttonClicked}) => {
         />
 
         <label>Email Address:</label>
+        
         <input
+        id="email"
           type="email"
           name="email"
           value={formData.email}
