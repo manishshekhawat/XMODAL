@@ -81,6 +81,7 @@ export const Form = ({setIsbuttonClicked}) => {
 
         <label>Phone Number:</label>
         <input
+        id="phone"
           type="text"
           name="ph_number"
           value={formData.ph_number}
@@ -90,6 +91,7 @@ export const Form = ({setIsbuttonClicked}) => {
 
         <label>Date of Birth:</label>
         <input
+        id="dob"
           type="date"
           name="dob"
           value={formData.dob}
